@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+data/raw/
+data/interim/
+data/processed/
+
+# IEEE Fraud Detection large CSV files
+ieee-fraud-detection/train_transaction.csv
+ieee-fraud-detection/test_transaction.csv
+
+# Trained models
+models/
+
+# Reports
+reports/
+
+# Logs
+*.log
+
+# Environment/secrets
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
