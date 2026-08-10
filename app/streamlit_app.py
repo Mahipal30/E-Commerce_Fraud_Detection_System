@@ -8,7 +8,7 @@ import pandas as pd
 import requests
 import streamlit as st
 
-API = "http://127.0.0.1:8000"
+API = "https://e-commerce-fraud-detection-system.onrender.com"
 
 st.set_page_config(
     page_title="FraudShield · Risk Intelligence",
