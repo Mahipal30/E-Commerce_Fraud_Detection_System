@@ -1,0 +1,20 @@
+{
+  "policy": {
+    "high_pct": 0.01,
+    "meaning": {
+      "high": "manual_review",
+      "low": "approve",
+      "medium": "step_up_verification"
+    },
+    "med_pct_cumulative": 0.05
+  },
+  "threshold_best_f1": 0.5970133543014526,
+  "threshold_high": 0.9543792605400085,
+  "threshold_medium": 0.36711469292640686,
+  "val_f1_flagged": 0.5005015045135406,
+  "val_flagged_rate": 0.05000508009618315,
+  "val_fraud_rate": 0.034409184813899145,
+  "val_n": 118108,
+  "val_precision_flagged": 0.4224517439891636,
+  "val_recall_flagged": 0.6139271653543307
+}
